@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sean Zimbelman">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
+
+    <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+
+    <title>Trivia Night</title>
+    <link rel="shortcut icon" href="lightBackground.png" type="image/x-i">
+    <style>
+        body {
+        background-image: url('lightBackground.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        }
+        </style>
+</head>
+
+<body>
+    <nav>
+        <fieldset>
+            <legend>Links to other pages</legend>
+            <ul>
+                <li><a href=index.html>Home</a></li>
+                <li><a href=quiz.html>Quiz</a></li>
+                <li><a href=survey.html>Survey</a></li>
+            </ul>
+        </fieldset>
+    </nav>
+    <form action="survey.html" method="POST">
+        <fieldset>
+            <legend>Multiple Choice</legend>
+            <p>What is the <em>scientific</em> name of H<sub>2</sub>O?</p>
+            <ul>
+                <li>
+                    <input type="radio" id="Air" name="user.water">
+                    <label for="Air">Air</label>
+                </li>
+                <li>
+                    <input type="radio" id="Fire" name="user.water">
+                    <label for="Fire">Fire</label>
+                </li>
+                <li>
+                    <input type="radio" id="Earth" name="user.water">
+                    <label for="Earth">Earth</label>
+                </li>
+                <li>
+                    <input type="radio" id="Water" name="user.water">
+                    <label for="Water">Water</label>
+                </li>
+            </ul>
+            <p>What is the <em>most popular</em> name for Dec. 25<sup>th</sup>?</p>
+            <ul>
+                <li>
+                    <input type="radio" id="Christmas" name="user.christmas">
+                    <label for="Christmas">Christmas</label>
+                </li>
+                <li>
+                    <input type="radio" id="Thanksgiving" name="user.christmas">
+                    <label for="Thanksgiving">Thanksgiving</label>
+                </li>
+                <li>
+                    <input type="radio" id="Vday" name="user.christmas">
+                    <label for="Vday">Valentine's Day</label>
+                </li>
+                <li>
+                    <input type="radio" id="Halloween" name="user.christmas">
+                    <label for="Halloween">Halloween</label>
+                </li>
+            </ul>
+            <p>Which of the following is the chemical code for <b>sugar</b>?</p>
+            <ul>
+                <li>
+                    <input type="checkbox" id="code1" name="user.sugar">
+                    <label for="code1">C<sub>12</sub>H<sub>22</sub>O<sub>11</sub></label><br>
+                </li>
+                <li>
+                    <input type="checkbox" id="code2" name="user.sugar">
+                    <label for="code2">C<sub>5</sub>H<sub>10</sub>O<sub>5</sub></label><br>
+                </li>
+                <li>
+                    <input type="checkbox" id="code3" name="user.sugar">
+                    <label for="code3">C<sub>6</sub>H<sub>12</sub>O<sub>5</sub></label><br>
+                </li>
+                <li>
+                    <input type="checkbox" id="code4" name="user.sugar">
+                    <label for="code4">C<sub>11</sub>H<sub>22</sub>O<sub>11</sub></label><br>
+                </li>
+            </ul>
+            <p>Which of the fallowing are <b>even</b>?</p>
+            <ul>
+                <li>
+                    <input type="checkbox" id="1" name="user.even">
+                    <label for="1">1<sup>st</sup></label><br>
+                </li>
+                <li>
+                    <input type="checkbox" id="2" name="user.even">
+                    <label for="2">2<sup>nd</sup></label><br>
+                </li>
+                <li>
+                    <input type="checkbox" id="3" name="user.even">
+                    <label for="3">3<sup>rd</sup></label><br>
+                </li>
+                <li>
+                    <input type="checkbox" id="4" name="user.even">
+                    <label for="4">4<sup>th</sup></label><br>
+                </li>
+            </ul>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
