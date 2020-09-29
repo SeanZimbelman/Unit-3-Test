@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Sean Zimbelman">
-    <meta name="description" content="">
-    <link rel="stylesheet" href="style.css">
-    <script src=""></script>
-
-    <meta property="og:image" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-
-    <title>Home Page</title>
-    <link rel="shortcut icon" href="lightBackground.png" type="image/x-i">
-    <style>
-        body {
-        background-image: url('lightBackground.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        }
-        </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Sean Zimbelman">
+        <meta name="description" content="Simple quiz and survey">
+        <link rel="stylesheet" href="style.css">
+        <title>Home Page</title>
+        <link rel="shortcut icon" href="lightBackground.png" type="image/x-i">
+        <style>
+            body {
+            background-image: url('lightBackground.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            }
+            </style>
+    </head>
 
 <body>
     <nav>
@@ -34,36 +28,38 @@
             </ul>
         </fieldset>
     </nav>
-    <h1>Welcome to my site!</h1>
-    <p>
-        On this site you can take a short quiz and then you can fill out our survey.<br><br>
-        <b>Only way that we can get better is by hearing what you have to say!</b>
-    </p>
-    <h3>Log In Below</h3><br><br>
-    <form action="quiz.html" method="POST">
-        <fieldset>
-            <legend>User Information</legend>
-            <ul>
-                <li>
-                    <lable for="name">User Name</lable>
-                    <input type="text" id="name" name="user.username">
-                </li>
-                <li>
-                    <lable for="PW">Password</lable>
-                    <input type="password" id="PW" name="user.PW">
-                </li>
-                <li>
-                    <label for="number">User Identification Number</label>
-                    <input type="number" id="number" name="user.number">
-                </li>
-                <li>
-                    <label for="date">Today's Date</label>
-                    <input type="date" id="date" name="user.day">
-                </li>
-                <input type="submit">
-            </ul>
-            
-        </fieldset>
-    </form>
+    <main>
+        <h1>Welcome to my site!</h1>
+        <p>
+            On this site you can take a short quiz and then you can fill out our survey.<br><br>
+            <b>Only way that we can get better is by hearing what you have to say!</b>
+        </p>
+        <h3>Log In Below</h3><br><br>
+        <form action="quiz.html" method="POST">
+            <fieldset>
+                <legend>User Information</legend>
+                <ul>
+                    <li>
+                        <lable for="name">User Name</lable>
+                        <input type="text" id="name" name="user.username">
+                    </li>
+                    <li>
+                        <lable for="PW">Password</lable>
+                        <input type="password" id="PW" name="user.PW">
+                    </li>
+                    <li>
+                        <label for="number">User Identification Number</label>
+                        <input type="number" id="number" name="user.number">
+                    </li>
+                    <li>
+                        <label for="date">Today's Date</label>
+                        <input type="date" id="date" name="user.day">
+                    </li>
+                    <input type="submit">
+                </ul>
+                
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>

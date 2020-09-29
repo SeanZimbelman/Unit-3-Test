@@ -3,14 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Sean Zimbelman">
-    <meta name="description" content="">
+    <meta name="description" content="Simple quiz and survey">
     <link rel="stylesheet" href="style.css">
-    <script src=""></script>
-
-    <meta property="og:image" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-
     <title>Survey</title>
     <link rel="shortcut icon" href="lightBackground.png" type="image/x-i">
     <style>
@@ -34,38 +28,40 @@
             </ul>
         </fieldset>
     </nav>
-    <h1>THANK YOU!</h1>
-    <p>
-        We appriciate you visiting our site. 
-        <em>Without users like you we could not continue.</em>
-        <br><br>
-        <b>PLEASE</b> take a minute to fill out this survey and tell us how we can get better.
-    </p>
-    <form action="index.html" method="POST">
-        <fieldset>
-            <legend>Survey</legend>
-            <ul>
-                <li>
-                    <lable for="name">Name</lable>
-                        <input type="text" id="name" name="user.name">
-                </li>
-                <li>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="user.email">
-                </li>
-                <li>
-                    <label for="phone">Phone Number</label>
-                    <input type="number" id="phone" name="user.phone">
-                </li>
-                <li>
-                    <label for="comment">Please tell us anything we can improve on</label>
-                </li>
-                <li>
-                    <textarea name="user.comment" id="comment" cols="30" rows="10">Type here</textarea>
-                </li>
-            </ul>
-            <input type="submit">
-        </fieldset>
-    </form>
+    <main>
+        <h1>THANK YOU!</h1>
+        <p>
+            We appriciate you visiting our site. 
+            <em>Without users like you we could not continue.</em>
+            <br><br>
+            <b>PLEASE</b> take a minute to fill out this survey and tell us how we can get better.
+        </p>
+        <form action="index.html" method="POST">
+            <fieldset>
+                <legend>Survey</legend>
+                <ul>
+                    <li>
+                        <lable for="name">Name</lable>
+                            <input type="text" id="name" name="user.name">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="user.email">
+                    </li>
+                    <li>
+                        <label for="phone">Phone Number</label>
+                        <input type="number" id="phone" name="user.phone">
+                    </li>
+                    <li>
+                        <label for="comment">Please tell us anything we can improve on</label>
+                    </li>
+                    <li>
+                        <textarea name="user.comment" id="comment" cols="30" rows="10">Type here</textarea>
+                    </li>
+                </ul>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>
